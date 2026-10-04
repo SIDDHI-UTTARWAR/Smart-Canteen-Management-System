@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block title %}New Order{% endblock %}
+{% block page_title %}New Order — Browse Menu &amp; Bill{% endblock %}
+
+{% block content %}
+<form method="POST" id="orderForm">
+<div class="row g-3">
+  <div class="col-lg-8">
+    <div class="panel">
+      <h5 class="mb-3"><i class="fa-solid fa-bowl-food me-2"></i>Menu</h5>
+      <div class="row g-3" id="menuGrid">
+        {% for f in foods %}
+        <div class="col-md-6 col-xl-4">
+          <div class="food-card">
+            <div class="food-card-top">
+              <span class="badge bg-light text-dark border">{{ f.category }}</span>
+              <span class="fw-bold">₹{{ '%.2f'|format(f.price) }}</span>
+            </div>
+            <h6>{{ f.name }}</h6>
+            <p class="text-muted small mb-2">Stock: {{ f.quantity }}</p>
+            <div class="input-group input-group-sm">
+              <button type="button" class="btn btn-outline-secondary qty-minus" data-id="{{ f.id }}">-</button>
+              <input type="number" min="0" max="{{ f.quantity }}" value="0" class="form-control text-center qty-input"
+                     data-id="{{ f.id }}" data-name="{{ f.name }}" data-price="{{ f.price }}">
+              <button type="button" class="btn btn-outline-secondary qty-plus" data-id="{{ f.id }}">+</button>
+            </div>
+          </div>
+        </div>
+        {% else %}
+        <p class="text-muted">No food items available. Add some in Food Management.</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="panel sticky-cart">
+      <h5 class="mb-3"><i class="fa-solid fa-cart-shopping me-2"></i>Cart &amp; Customer</h5>
+      <div class="mb-2"><label class="form-label small">Customer Name</label>
+        <input type="text" name="customer_name" class="form-control form-control-sm" required></div>
+      <div class="mb-3"><label class="form-label small">Phone Number</label>
+        <input type="text" name="phone" class="form-control form-control-sm" required></div>
+
+      <div id="cartItems" class="cart-items mb-2"><p class="text-muted small">Cart is empty</p></div>
+
+      <div class="mb-2"><label class="form-label small">Discount (%)</label>
+        <input type="number" name="discount" value="0" min="0" max="100" class="form-control form-control-sm"></div>
+
+      <hr>
+      <div class="d-flex justify-content-between small"><span>Subtotal</span><span id="subtotalDisp">₹0.00</span></div>
+      <div class="d-flex justify-content-between small"><span>GST ({{ gst }}%)</span><span id="gstDisp">₹0.00</span></div>
+      <div class="d-flex justify-content-between fw-bold mt-1"><span>Total</span><span id="totalDisp">₹0.00</span></div>
+
+      <button type="submit" class="btn btn-primary w-100 mt-3" id="placeOrderBtn" disabled>
+        <i class="fa-solid fa-check me-1"></i> Place Order &amp; Generate Bill
+      </button>
+    </div>
+  </div>
+</div>
+</form>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const GST = {{ gst }};
+function recalc() {
+  let subtotal = 0;
+  let cartHtml = '';
+  let hiddenInputs = '';
+  document.querySelectorAll('.qty-input').forEach(inp => {
+    const qty = parseInt(inp.value) || 0;
+    if (qty > 0) {
+      const price = parseFloat(inp.dataset.price);
+      const lineTotal = qty * price;
+      subtotal += lineTotal;
+      cartHtml += `<div class="d-flex justify-content-between small mb-1">
+        <span>${inp.dataset.name} x${qty}</span><span>₹${lineTotal.toFixed(2)}</span></div>`;
+      hiddenInputs += `<input type="hidden" name="food_id" value="${inp.dataset.id}">
+                        <input type="hidden" name="quantity" value="${qty}">`;
+    }
+  });
+  document.getElementById('cartItems').innerHTML = cartHtml || '<p class="text-muted small">Cart is empty</p>';
+  document.getElementById('hiddenCartInputs')?.remove();
+  const div = document.createElement('div');
+  div.id = 'hiddenCartInputs';
+  div.innerHTML = hiddenInputs;
+  document.getElementById('orderForm').appendChild(div);
+
+  const gst = subtotal * GST / 100;
+  const discount = parseFloat(document.querySelector('[name=discount]').value || 0);
+  const discAmt = subtotal * discount / 100;
+  const total = subtotal + gst - discAmt;
+
+  document.getElementById('subtotalDisp').innerText = '₹' + subtotal.toFixed(2);
+  document.getElementById('gstDisp').innerText = '₹' + gst.toFixed(2);
+  document.getElementById('totalDisp').innerText = '₹' + total.toFixed(2);
+  document.getElementById('placeOrderBtn').disabled = subtotal <= 0;
+}
+
+document.querySelectorAll('.qty-plus').forEach(btn => btn.addEventListener('click', () => {
+  const inp = document.querySelector(`.qty-input[data-id="${btn.dataset.id}"]`);
+  if (parseInt(inp.value) < parseInt(inp.max)) inp.value = parseInt(inp.value) + 1;
+  recalc();
+}));
+document.querySelectorAll('.qty-minus').forEach(btn => btn.addEventListener('click', () => {
+  const inp = document.querySelector(`.qty-input[data-id="${btn.dataset.id}"]`);
+  if (parseInt(inp.value) > 0) inp.value = parseInt(inp.value) - 1;
+  recalc();
+}));
+document.querySelectorAll('.qty-input, [name=discount]').forEach(el => el.addEventListener('input', recalc));
+recalc();
+</script>
+{% endblock %}

@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block page_title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="row g-3 mb-4">
+  <div class="col-6 col-xl-3">
+    <div class="stat-card stat-1">
+      <i class="fa-solid fa-indian-rupee-sign"></i>
+      <div><h3>₹{{ '%.2f'|format(today_revenue) }}</h3><p>Today's Revenue</p></div>
+    </div>
+  </div>
+  <div class="col-6 col-xl-3">
+    <div class="stat-card stat-2">
+      <i class="fa-solid fa-receipt"></i>
+      <div><h3>{{ total_orders }}</h3><p>Total Orders</p></div>
+    </div>
+  </div>
+  <div class="col-6 col-xl-3">
+    <div class="stat-card stat-3">
+      <i class="fa-solid fa-users"></i>
+      <div><h3>{{ total_customers }}</h3><p>Total Customers</p></div>
+    </div>
+  </div>
+  <div class="col-6 col-xl-3">
+    <div class="stat-card stat-4">
+      <i class="fa-solid fa-bowl-food"></i>
+      <div><h3>{{ total_food }}</h3><p>Menu Items</p></div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3 mb-4">
+  <div class="col-lg-4">
+    <div class="panel h-100">
+      <h5><i class="fa-solid fa-triangle-exclamation text-warning me-2"></i>Low Stock Alerts</h5>
+      {% if low_stock %}
+        <ul class="list-clean">
+        {% for item in low_stock %}
+          <li><span>{{ item.ingredient_name }}</span><span class="badge bg-danger">{{ item.available_quantity }} {{ item.unit }}</span></li>
+        {% endfor %}
+        </ul>
+      {% else %}
+        <p class="text-muted small mb-0">All ingredients well stocked.</p>
+      {% endif %}
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="panel h-100">
+      <h5><i class="fa-solid fa-star text-warning me-2"></i>Popular Food</h5>
+      {% if popular %}
+        <ul class="list-clean">
+        {% for p in popular %}
+          <li><span>{{ p.food_name }}</span><span class="badge bg-primary">{{ p.qty }} sold</span></li>
+        {% endfor %}
+        </ul>
+      {% else %}
+        <p class="text-muted small mb-0">No sales yet.</p>
+      {% endif %}
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="panel h-100">
+      <h5><i class="fa-solid fa-tags text-info me-2"></i>Menu by Category</h5>
+      <canvas id="categoryChart" height="180"></canvas>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3">
+  <div class="col-lg-6">
+    <div class="panel">
+      <h5><i class="fa-solid fa-chart-column text-primary me-2"></i>Weekly Sales</h5>
+      <canvas id="weeklyChart" height="200"></canvas>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="panel">
+      <h5><i class="fa-solid fa-chart-line text-success me-2"></i>Monthly Sales Trend</h5>
+      <canvas id="monthlyChart" height="200"></canvas>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const weeklyLabels = {{ weekly|map(attribute='order_date')|list|tojson }};
+const weeklyData = {{ weekly|map(attribute='total')|list|tojson }};
+const monthlyLabels = {{ monthly|map(attribute='month')|list|tojson }};
+const monthlyData = {{ monthly|map(attribute='total')|list|tojson }};
+const catLabels = {{ category_split|map(attribute='category')|list|tojson }};
+const catData = {{ category_split|map(attribute='c')|list|tojson }};
+
+new Chart(document.getElementById('weeklyChart'), {
+  type: 'bar',
+  data: { labels: weeklyLabels, datasets: [{ label: 'Revenue (₹)', data: weeklyData, backgroundColor: '#6366f1', borderRadius: 6 }] },
+  options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } }
+});
+
+new Chart(document.getElementById('monthlyChart'), {
+  type: 'line',
+  data: { labels: monthlyLabels, datasets: [{ label: 'Revenue (₹)', data: monthlyData, borderColor: '#22c55e', backgroundColor: 'rgba(34,197,94,0.15)', fill: true, tension: 0.35 }] },
+  options: { plugins: { legend: { display: false } } }
+});
+
+new Chart(document.getElementById('categoryChart'), {
+  type: 'pie',
+  data: { labels: catLabels, datasets: [{ data: catData, backgroundColor: ['#6366f1','#22c55e','#f59e0b','#ef4444','#06b6d4','#a855f7'] }] },
+});
+</script>
+{% endblock %}

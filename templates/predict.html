@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% block title %}AI Demand Prediction{% endblock %}
+{% block page_title %}AI Food Demand Prediction{% endblock %}
+
+{% block content %}
+<div class="row g-3">
+  <div class="col-lg-5">
+    <div class="panel">
+      <h5 class="mb-3"><i class="fa-solid fa-brain text-primary me-2"></i>Predict Demand</h5>
+      <form method="POST">
+        <div class="mb-2">
+          <label class="form-label small">Day of Week</label>
+          <select name="day" class="form-select">
+            {% for d in ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'] %}
+              <option {{ 'selected' if form_data.get('day')==d }}>{{ d }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="mb-2">
+          <label class="form-label small">Weather</label>
+          <select name="weather" class="form-select">
+            {% for w in ['Sunny','Rainy','Cloudy','Cold','Hot'] %}
+              <option {{ 'selected' if form_data.get('weather')==w }}>{{ w }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="mb-2">
+          <label class="form-label small">Temperature (°C)</label>
+          <input type="number" step="0.1" name="temperature" class="form-control" value="{{ form_data.get('temperature', 28) }}" required>
+        </div>
+        <div class="mb-2">
+          <label class="form-label small">Time Slot</label>
+          <select name="time_slot" class="form-select">
+            {% for t in ['Breakfast','Lunch','Snacks','Dinner'] %}
+              <option {{ 'selected' if form_data.get('time_slot')==t }}>{{ t }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="row">
+          <div class="col-6 mb-2">
+            <label class="form-label small">Holiday?</label>
+            <select name="holiday" class="form-select">
+              <option value="No" {{ 'selected' if form_data.get('holiday')=='No' }}>No</option>
+              <option value="Yes" {{ 'selected' if form_data.get('holiday')=='Yes' }}>Yes</option>
+            </select>
+          </div>
+          <div class="col-6 mb-2">
+            <label class="form-label small">Festival?</label>
+            <select name="festival" class="form-select">
+              <option value="No" {{ 'selected' if form_data.get('festival')=='No' }}>No</option>
+              <option value="Yes" {{ 'selected' if form_data.get('festival')=='Yes' }}>Yes</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary w-100 mt-2"><i class="fa-solid fa-wand-magic-sparkles me-1"></i>Predict Demand</button>
+      </form>
+      <p class="text-muted small mt-3 mb-0">Model: Random Forest Regressor, trained on historical sales data (Day, Weather, Temperature, Festival, Holiday, Time Slot &rarr; Orders).</p>
+    </div>
+  </div>
+
+  <div class="col-lg-7">
+    {% if result %}
+    <div class="panel mb-3 text-center">
+      <h6 class="text-muted mb-1">Expected Orders</h6>
+      <h1 class="display-4 fw-bold text-primary">{{ result.predicted_orders }}</h1>
+      <p class="text-muted mb-0">for {{ form_data.get('time_slot') }} on a {{ form_data.get('day') }} ({{ form_data.get('weather') }}, {{ form_data.get('temperature') }}°C)</p>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-md-6">
+        <div class="panel h-100">
+          <h6><i class="fa-solid fa-arrow-trend-up text-success me-2"></i>High Demand Foods</h6>
+          <ul class="list-clean">
+            {% for f in result.high_demand_foods %}<li><span>{{ f }}</span></li>{% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="panel h-100">
+          <h6><i class="fa-solid fa-arrow-trend-down text-danger me-2"></i>Low Demand Foods</h6>
+          <ul class="list-clean">
+            {% for f in result.low_demand_foods %}<li><span>{{ f }}</span></li>{% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel mt-3">
+      <h6 class="mb-3"><i class="fa-solid fa-kitchen-set text-info me-2"></i>Quantity to Prepare</h6>
+      <canvas id="demandChart" height="140"></canvas>
+      <div class="table-responsive mt-3">
+        <table class="table table-sm">
+          <thead><tr><th>Food</th><th>Qty to Prepare</th></tr></thead>
+          <tbody>
+          {% for f in result.food_demand %}
+            <tr><td>{{ f.food }}</td><td>{{ f.quantity_to_prepare }}</td></tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {% else %}
+    <div class="panel h-100 d-flex align-items-center justify-content-center text-center">
+      <div class="text-muted">
+        <i class="fa-solid fa-chart-simple fa-3x mb-3"></i>
+        <p>Fill in the conditions on the left and click <b>Predict Demand</b><br>to see AI-powered food demand insights.</p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% if result %}
+<script>
+const foods = {{ result.food_demand|map(attribute='food')|list|tojson }};
+const qty = {{ result.food_demand|map(attribute='quantity_to_prepare')|list|tojson }};
+new Chart(document.getElementById('demandChart'), {
+  type: 'bar',
+  data: { labels: foods, datasets: [{ label: 'Quantity to Prepare', data: qty, backgroundColor: '#6366f1', borderRadius: 6 }] },
+  options: { indexAxis: 'y', plugins: { legend: { display: false } } }
+});
+</script>
+{% endif %}
+{% endblock %}

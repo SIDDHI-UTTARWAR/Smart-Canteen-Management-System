@@ -1,0 +1,541 @@
+Date,Day,Weather,Temperature,Festival,Holiday,Time Slot,Food Name,Quantity Sold,Orders,Revenue
+2026-01-01,Thursday,Sunny,15.6,No,No,Breakfast,Chicken Biryani,11,30,1320
+2026-01-01,Thursday,Sunny,15.6,No,No,Breakfast,Cold Coffee,6,30,240
+2026-01-01,Thursday,Sunny,15.6,No,No,Breakfast,Tea,8,30,80
+2026-01-01,Thursday,Sunny,15.6,No,No,Lunch,Chicken Biryani,11,39,1320
+2026-01-01,Thursday,Sunny,15.6,No,No,Lunch,Sandwich,8,39,280
+2026-01-01,Thursday,Sunny,15.6,No,No,Lunch,Tea,9,39,90
+2026-01-01,Thursday,Sunny,15.6,No,No,Snacks,Tea,12,39,120
+2026-01-01,Thursday,Sunny,15.6,No,No,Snacks,Chicken Biryani,14,39,1680
+2026-01-01,Thursday,Sunny,15.6,No,No,Snacks,Samosa,7,39,105
+2026-01-01,Thursday,Sunny,15.6,No,No,Dinner,Masala Dosa,8,31,360
+2026-01-01,Thursday,Sunny,15.6,No,No,Dinner,Cold Coffee,7,31,280
+2026-01-01,Thursday,Sunny,15.6,No,No,Dinner,Samosa,12,31,180
+2026-01-02,Friday,Cloudy,17.4,No,No,Breakfast,Paneer Roll,8,24,440
+2026-01-02,Friday,Cloudy,17.4,No,No,Breakfast,Tea,7,24,70
+2026-01-02,Friday,Cloudy,17.4,No,No,Breakfast,Veg Thali,9,24,540
+2026-01-02,Friday,Cloudy,17.4,No,No,Lunch,Chicken Biryani,16,45,1920
+2026-01-02,Friday,Cloudy,17.4,No,No,Lunch,Paneer Roll,14,45,770
+2026-01-02,Friday,Cloudy,17.4,No,No,Lunch,Masala Dosa,16,45,720
+2026-01-02,Friday,Cloudy,17.4,No,No,Snacks,Samosa,7,38,105
+2026-01-02,Friday,Cloudy,17.4,No,No,Snacks,Cold Coffee,9,38,360
+2026-01-02,Friday,Cloudy,17.4,No,No,Snacks,Veg Thali,9,38,540
+2026-01-02,Friday,Cloudy,17.4,No,No,Dinner,Samosa,5,20,75
+2026-01-02,Friday,Cloudy,17.4,No,No,Dinner,Tea,5,20,50
+2026-01-02,Friday,Cloudy,17.4,No,No,Dinner,Veg Thali,7,20,420
+2026-01-03,Saturday,Rainy,23.5,No,No,Breakfast,Chicken Biryani,11,49,1320
+2026-01-03,Saturday,Rainy,23.5,No,No,Breakfast,Paneer Roll,16,49,880
+2026-01-03,Saturday,Rainy,23.5,No,No,Breakfast,Cold Coffee,11,49,440
+2026-01-03,Saturday,Rainy,23.5,No,No,Lunch,Paneer Roll,20,65,1100
+2026-01-03,Saturday,Rainy,23.5,No,No,Lunch,Cold Coffee,21,65,840
+2026-01-03,Saturday,Rainy,23.5,No,No,Lunch,Tea,23,65,230
+2026-01-03,Saturday,Rainy,23.5,No,No,Snacks,Veg Thali,22,61,1320
+2026-01-03,Saturday,Rainy,23.5,No,No,Snacks,Chicken Biryani,17,61,2040
+2026-01-03,Saturday,Rainy,23.5,No,No,Snacks,Sandwich,13,61,455
+2026-01-03,Saturday,Rainy,23.5,No,No,Dinner,Cold Coffee,14,48,560
+2026-01-03,Saturday,Rainy,23.5,No,No,Dinner,Chicken Biryani,18,48,2160
+2026-01-03,Saturday,Rainy,23.5,No,No,Dinner,Sandwich,15,48,525
+2026-01-04,Sunday,Rainy,21.1,No,No,Breakfast,Tea,11,43,110
+2026-01-04,Sunday,Rainy,21.1,No,No,Breakfast,Paneer Roll,17,43,935
+2026-01-04,Sunday,Rainy,21.1,No,No,Breakfast,Samosa,9,43,135
+2026-01-04,Sunday,Rainy,21.1,No,No,Lunch,Chicken Biryani,24,66,2880
+2026-01-04,Sunday,Rainy,21.1,No,No,Lunch,Tea,15,66,150
+2026-01-04,Sunday,Rainy,21.1,No,No,Lunch,Veg Thali,15,66,900
+2026-01-04,Sunday,Rainy,21.1,No,No,Snacks,Tea,16,59,160
+2026-01-04,Sunday,Rainy,21.1,No,No,Snacks,Paneer Roll,18,59,990
+2026-01-04,Sunday,Rainy,21.1,No,No,Snacks,Veg Thali,17,59,1020
+2026-01-04,Sunday,Rainy,21.1,No,No,Dinner,Veg Thali,9,43,540
+2026-01-04,Sunday,Rainy,21.1,No,No,Dinner,Cold Coffee,16,43,640
+2026-01-04,Sunday,Rainy,21.1,No,No,Dinner,Tea,15,43,150
+2026-01-05,Monday,Cloudy,17.6,No,No,Breakfast,Paneer Roll,9,30,495
+2026-01-05,Monday,Cloudy,17.6,No,No,Breakfast,Sandwich,6,30,210
+2026-01-05,Monday,Cloudy,17.6,No,No,Breakfast,Chicken Biryani,9,30,1080
+2026-01-05,Monday,Cloudy,17.6,No,No,Lunch,Samosa,17,49,255
+2026-01-05,Monday,Cloudy,17.6,No,No,Lunch,Chicken Biryani,15,49,1800
+2026-01-05,Monday,Cloudy,17.6,No,No,Lunch,Masala Dosa,17,49,765
+2026-01-05,Monday,Cloudy,17.6,No,No,Snacks,Veg Thali,11,37,660
+2026-01-05,Monday,Cloudy,17.6,No,No,Snacks,Paneer Roll,8,37,440
+2026-01-05,Monday,Cloudy,17.6,No,No,Snacks,Masala Dosa,10,37,450
+2026-01-05,Monday,Cloudy,17.6,No,No,Dinner,Paneer Roll,7,31,385
+2026-01-05,Monday,Cloudy,17.6,No,No,Dinner,Chicken Biryani,9,31,1080
+2026-01-05,Monday,Cloudy,17.6,No,No,Dinner,Veg Thali,6,31,360
+2026-01-06,Tuesday,Cold,33.8,No,No,Breakfast,Masala Dosa,8,21,360
+2026-01-06,Tuesday,Cold,33.8,No,No,Breakfast,Cold Coffee,4,21,160
+2026-01-06,Tuesday,Cold,33.8,No,No,Breakfast,Samosa,6,21,90
+2026-01-06,Tuesday,Cold,33.8,No,No,Lunch,Tea,16,48,160
+2026-01-06,Tuesday,Cold,33.8,No,No,Lunch,Chicken Biryani,16,48,1920
+2026-01-06,Tuesday,Cold,33.8,No,No,Lunch,Paneer Roll,16,48,880
+2026-01-06,Tuesday,Cold,33.8,No,No,Snacks,Cold Coffee,10,35,400
+2026-01-06,Tuesday,Cold,33.8,No,No,Snacks,Samosa,8,35,120
+2026-01-06,Tuesday,Cold,33.8,No,No,Snacks,Paneer Roll,7,35,385
+2026-01-06,Tuesday,Cold,33.8,No,No,Dinner,Samosa,3,19,45
+2026-01-06,Tuesday,Cold,33.8,No,No,Dinner,Paneer Roll,6,19,330
+2026-01-06,Tuesday,Cold,33.8,No,No,Dinner,Chicken Biryani,4,19,480
+2026-01-07,Wednesday,Sunny,35.8,No,Yes,Breakfast,Paneer Roll,3,14,165
+2026-01-07,Wednesday,Sunny,35.8,No,Yes,Breakfast,Cold Coffee,3,14,120
+2026-01-07,Wednesday,Sunny,35.8,No,Yes,Breakfast,Samosa,5,14,75
+2026-01-07,Wednesday,Sunny,35.8,No,Yes,Lunch,Sandwich,14,40,490
+2026-01-07,Wednesday,Sunny,35.8,No,Yes,Lunch,Chicken Biryani,9,40,1080
+2026-01-07,Wednesday,Sunny,35.8,No,Yes,Lunch,Samosa,8,40,120
+2026-01-07,Wednesday,Sunny,35.8,No,Yes,Snacks,Cold Coffee,7,27,280
+2026-01-07,Wednesday,Sunny,35.8,No,Yes,Snacks,Samosa,9,27,135
+2026-01-07,Wednesday,Sunny,35.8,No,Yes,Snacks,Tea,9,27,90
+2026-01-07,Wednesday,Sunny,35.8,No,Yes,Dinner,Chicken Biryani,7,21,840
+2026-01-07,Wednesday,Sunny,35.8,No,Yes,Dinner,Veg Thali,7,21,420
+2026-01-07,Wednesday,Sunny,35.8,No,Yes,Dinner,Samosa,4,21,60
+2026-01-08,Thursday,Rainy,19.4,No,No,Breakfast,Sandwich,8,31,280
+2026-01-08,Thursday,Rainy,19.4,No,No,Breakfast,Chicken Biryani,11,31,1320
+2026-01-08,Thursday,Rainy,19.4,No,No,Breakfast,Veg Thali,9,31,540
+2026-01-08,Thursday,Rainy,19.4,No,No,Lunch,Veg Thali,10,47,600
+2026-01-08,Thursday,Rainy,19.4,No,No,Lunch,Sandwich,13,47,455
+2026-01-08,Thursday,Rainy,19.4,No,No,Lunch,Chicken Biryani,11,47,1320
+2026-01-08,Thursday,Rainy,19.4,No,No,Snacks,Veg Thali,8,43,480
+2026-01-08,Thursday,Rainy,19.4,No,No,Snacks,Chicken Biryani,11,43,1320
+2026-01-08,Thursday,Rainy,19.4,No,No,Snacks,Samosa,16,43,240
+2026-01-08,Thursday,Rainy,19.4,No,No,Dinner,Sandwich,13,39,455
+2026-01-08,Thursday,Rainy,19.4,No,No,Dinner,Masala Dosa,13,39,585
+2026-01-08,Thursday,Rainy,19.4,No,No,Dinner,Samosa,13,39,195
+2026-01-09,Friday,Cold,18.6,No,No,Breakfast,Veg Thali,5,28,300
+2026-01-09,Friday,Cold,18.6,No,No,Breakfast,Cold Coffee,8,28,320
+2026-01-09,Friday,Cold,18.6,No,No,Breakfast,Masala Dosa,8,28,360
+2026-01-09,Friday,Cold,18.6,No,No,Lunch,Masala Dosa,10,47,450
+2026-01-09,Friday,Cold,18.6,No,No,Lunch,Veg Thali,11,47,660
+2026-01-09,Friday,Cold,18.6,No,No,Lunch,Paneer Roll,14,47,770
+2026-01-09,Friday,Cold,18.6,No,No,Snacks,Samosa,15,39,225
+2026-01-09,Friday,Cold,18.6,No,No,Snacks,Sandwich,12,39,420
+2026-01-09,Friday,Cold,18.6,No,No,Snacks,Veg Thali,12,39,720
+2026-01-09,Friday,Cold,18.6,No,No,Dinner,Chicken Biryani,6,19,720
+2026-01-09,Friday,Cold,18.6,No,No,Dinner,Samosa,5,19,75
+2026-01-09,Friday,Cold,18.6,No,No,Dinner,Cold Coffee,7,19,280
+2026-01-10,Saturday,Rainy,30.4,No,No,Breakfast,Paneer Roll,15,41,825
+2026-01-10,Saturday,Rainy,30.4,No,No,Breakfast,Samosa,15,41,225
+2026-01-10,Saturday,Rainy,30.4,No,No,Breakfast,Masala Dosa,8,41,360
+2026-01-10,Saturday,Rainy,30.4,No,No,Lunch,Chicken Biryani,16,68,1920
+2026-01-10,Saturday,Rainy,30.4,No,No,Lunch,Veg Thali,17,68,1020
+2026-01-10,Saturday,Rainy,30.4,No,No,Lunch,Paneer Roll,26,68,1430
+2026-01-10,Saturday,Rainy,30.4,No,No,Snacks,Samosa,11,50,165
+2026-01-10,Saturday,Rainy,30.4,No,No,Snacks,Masala Dosa,18,50,810
+2026-01-10,Saturday,Rainy,30.4,No,No,Snacks,Tea,17,50,170
+2026-01-10,Saturday,Rainy,30.4,No,No,Dinner,Veg Thali,12,48,720
+2026-01-10,Saturday,Rainy,30.4,No,No,Dinner,Cold Coffee,15,48,600
+2026-01-10,Saturday,Rainy,30.4,No,No,Dinner,Paneer Roll,18,48,990
+2026-01-11,Sunday,Rainy,21.1,No,No,Breakfast,Paneer Roll,9,41,495
+2026-01-11,Sunday,Rainy,21.1,No,No,Breakfast,Masala Dosa,11,41,495
+2026-01-11,Sunday,Rainy,21.1,No,No,Breakfast,Sandwich,13,41,455
+2026-01-11,Sunday,Rainy,21.1,No,No,Lunch,Sandwich,13,63,455
+2026-01-11,Sunday,Rainy,21.1,No,No,Lunch,Masala Dosa,17,63,765
+2026-01-11,Sunday,Rainy,21.1,No,No,Lunch,Veg Thali,16,63,960
+2026-01-11,Sunday,Rainy,21.1,No,No,Snacks,Cold Coffee,16,49,640
+2026-01-11,Sunday,Rainy,21.1,No,No,Snacks,Tea,12,49,120
+2026-01-11,Sunday,Rainy,21.1,No,No,Snacks,Chicken Biryani,17,49,2040
+2026-01-11,Sunday,Rainy,21.1,No,No,Dinner,Tea,10,47,100
+2026-01-11,Sunday,Rainy,21.1,No,No,Dinner,Paneer Roll,18,47,990
+2026-01-11,Sunday,Rainy,21.1,No,No,Dinner,Veg Thali,15,47,900
+2026-01-12,Monday,Rainy,27.5,No,No,Breakfast,Tea,7,29,70
+2026-01-12,Monday,Rainy,27.5,No,No,Breakfast,Chicken Biryani,11,29,1320
+2026-01-12,Monday,Rainy,27.5,No,No,Breakfast,Veg Thali,10,29,600
+2026-01-12,Monday,Rainy,27.5,No,No,Lunch,Cold Coffee,11,47,440
+2026-01-12,Monday,Rainy,27.5,No,No,Lunch,Chicken Biryani,10,47,1200
+2026-01-12,Monday,Rainy,27.5,No,No,Lunch,Sandwich,16,47,560
+2026-01-12,Monday,Rainy,27.5,No,No,Snacks,Masala Dosa,16,43,720
+2026-01-12,Monday,Rainy,27.5,No,No,Snacks,Chicken Biryani,15,43,1800
+2026-01-12,Monday,Rainy,27.5,No,No,Snacks,Tea,16,43,160
+2026-01-12,Monday,Rainy,27.5,No,No,Dinner,Masala Dosa,9,27,405
+2026-01-12,Monday,Rainy,27.5,No,No,Dinner,Cold Coffee,7,27,280
+2026-01-12,Monday,Rainy,27.5,No,No,Dinner,Sandwich,9,27,315
+2026-01-13,Tuesday,Rainy,21.1,No,No,Breakfast,Sandwich,9,27,315
+2026-01-13,Tuesday,Rainy,21.1,No,No,Breakfast,Chicken Biryani,7,27,840
+2026-01-13,Tuesday,Rainy,21.1,No,No,Breakfast,Tea,7,27,70
+2026-01-13,Tuesday,Rainy,21.1,No,No,Lunch,Samosa,19,59,285
+2026-01-13,Tuesday,Rainy,21.1,No,No,Lunch,Chicken Biryani,16,59,1920
+2026-01-13,Tuesday,Rainy,21.1,No,No,Lunch,Veg Thali,15,59,900
+2026-01-13,Tuesday,Rainy,21.1,No,No,Snacks,Paneer Roll,11,38,605
+2026-01-13,Tuesday,Rainy,21.1,No,No,Snacks,Masala Dosa,12,38,540
+2026-01-13,Tuesday,Rainy,21.1,No,No,Snacks,Cold Coffee,14,38,560
+2026-01-13,Tuesday,Rainy,21.1,No,No,Dinner,Veg Thali,7,32,420
+2026-01-13,Tuesday,Rainy,21.1,No,No,Dinner,Sandwich,12,32,420
+2026-01-13,Tuesday,Rainy,21.1,No,No,Dinner,Masala Dosa,8,32,360
+2026-01-14,Wednesday,Sunny,28.7,No,No,Breakfast,Chicken Biryani,5,25,600
+2026-01-14,Wednesday,Sunny,28.7,No,No,Breakfast,Samosa,5,25,75
+2026-01-14,Wednesday,Sunny,28.7,No,No,Breakfast,Paneer Roll,7,25,385
+2026-01-14,Wednesday,Sunny,28.7,No,No,Lunch,Samosa,10,47,150
+2026-01-14,Wednesday,Sunny,28.7,No,No,Lunch,Masala Dosa,15,47,675
+2026-01-14,Wednesday,Sunny,28.7,No,No,Lunch,Sandwich,12,47,420
+2026-01-14,Wednesday,Sunny,28.7,No,No,Snacks,Chicken Biryani,10,34,1200
+2026-01-14,Wednesday,Sunny,28.7,No,No,Snacks,Cold Coffee,11,34,440
+2026-01-14,Wednesday,Sunny,28.7,No,No,Snacks,Masala Dosa,9,34,405
+2026-01-14,Wednesday,Sunny,28.7,No,No,Dinner,Paneer Roll,7,30,385
+2026-01-14,Wednesday,Sunny,28.7,No,No,Dinner,Sandwich,9,30,315
+2026-01-14,Wednesday,Sunny,28.7,No,No,Dinner,Chicken Biryani,8,30,960
+2026-01-15,Thursday,Rainy,29.2,No,No,Breakfast,Paneer Roll,7,27,385
+2026-01-15,Thursday,Rainy,29.2,No,No,Breakfast,Masala Dosa,8,27,360
+2026-01-15,Thursday,Rainy,29.2,No,No,Breakfast,Chicken Biryani,8,27,960
+2026-01-15,Thursday,Rainy,29.2,No,No,Lunch,Sandwich,13,54,455
+2026-01-15,Thursday,Rainy,29.2,No,No,Lunch,Samosa,15,54,225
+2026-01-15,Thursday,Rainy,29.2,No,No,Lunch,Cold Coffee,20,54,800
+2026-01-15,Thursday,Rainy,29.2,No,No,Snacks,Masala Dosa,12,49,540
+2026-01-15,Thursday,Rainy,29.2,No,No,Snacks,Cold Coffee,16,49,640
+2026-01-15,Thursday,Rainy,29.2,No,No,Snacks,Veg Thali,15,49,900
+2026-01-15,Thursday,Rainy,29.2,No,No,Dinner,Samosa,6,28,90
+2026-01-15,Thursday,Rainy,29.2,No,No,Dinner,Cold Coffee,6,28,240
+2026-01-15,Thursday,Rainy,29.2,No,No,Dinner,Masala Dosa,5,28,225
+2026-01-16,Friday,Rainy,37.6,No,No,Breakfast,Tea,8,34,80
+2026-01-16,Friday,Rainy,37.6,No,No,Breakfast,Cold Coffee,11,34,440
+2026-01-16,Friday,Rainy,37.6,No,No,Breakfast,Paneer Roll,10,34,550
+2026-01-16,Friday,Rainy,37.6,No,No,Lunch,Masala Dosa,10,50,450
+2026-01-16,Friday,Rainy,37.6,No,No,Lunch,Cold Coffee,17,50,680
+2026-01-16,Friday,Rainy,37.6,No,No,Lunch,Tea,17,50,170
+2026-01-16,Friday,Rainy,37.6,No,No,Snacks,Tea,13,38,130
+2026-01-16,Friday,Rainy,37.6,No,No,Snacks,Chicken Biryani,12,38,1440
+2026-01-16,Friday,Rainy,37.6,No,No,Snacks,Sandwich,11,38,385
+2026-01-16,Friday,Rainy,37.6,No,No,Dinner,Samosa,10,35,150
+2026-01-16,Friday,Rainy,37.6,No,No,Dinner,Tea,12,35,120
+2026-01-16,Friday,Rainy,37.6,No,No,Dinner,Veg Thali,11,35,660
+2026-01-17,Saturday,Hot,28.7,No,No,Breakfast,Tea,11,40,110
+2026-01-17,Saturday,Hot,28.7,No,No,Breakfast,Sandwich,9,40,315
+2026-01-17,Saturday,Hot,28.7,No,No,Breakfast,Paneer Roll,14,40,770
+2026-01-17,Saturday,Hot,28.7,No,No,Lunch,Paneer Roll,21,58,1155
+2026-01-17,Saturday,Hot,28.7,No,No,Lunch,Tea,14,58,140
+2026-01-17,Saturday,Hot,28.7,No,No,Lunch,Chicken Biryani,20,58,2400
+2026-01-17,Saturday,Hot,28.7,No,No,Snacks,Samosa,10,48,150
+2026-01-17,Saturday,Hot,28.7,No,No,Snacks,Masala Dosa,12,48,540
+2026-01-17,Saturday,Hot,28.7,No,No,Snacks,Sandwich,12,48,420
+2026-01-17,Saturday,Hot,28.7,No,No,Dinner,Chicken Biryani,8,36,960
+2026-01-17,Saturday,Hot,28.7,No,No,Dinner,Sandwich,12,36,420
+2026-01-17,Saturday,Hot,28.7,No,No,Dinner,Tea,12,36,120
+2026-01-18,Sunday,Sunny,24.5,No,No,Breakfast,Samosa,8,31,120
+2026-01-18,Sunday,Sunny,24.5,No,No,Breakfast,Tea,10,31,100
+2026-01-18,Sunday,Sunny,24.5,No,No,Breakfast,Sandwich,12,31,420
+2026-01-18,Sunday,Sunny,24.5,No,No,Lunch,Tea,19,51,190
+2026-01-18,Sunday,Sunny,24.5,No,No,Lunch,Samosa,13,51,195
+2026-01-18,Sunday,Sunny,24.5,No,No,Lunch,Veg Thali,14,51,840
+2026-01-18,Sunday,Sunny,24.5,No,No,Snacks,Samosa,11,47,165
+2026-01-18,Sunday,Sunny,24.5,No,No,Snacks,Sandwich,13,47,455
+2026-01-18,Sunday,Sunny,24.5,No,No,Snacks,Chicken Biryani,13,47,1560
+2026-01-18,Sunday,Sunny,24.5,No,No,Dinner,Tea,15,41,150
+2026-01-18,Sunday,Sunny,24.5,No,No,Dinner,Cold Coffee,15,41,600
+2026-01-18,Sunday,Sunny,24.5,No,No,Dinner,Chicken Biryani,16,41,1920
+2026-01-19,Monday,Hot,15.6,No,No,Breakfast,Chicken Biryani,4,19,480
+2026-01-19,Monday,Hot,15.6,No,No,Breakfast,Cold Coffee,5,19,200
+2026-01-19,Monday,Hot,15.6,No,No,Breakfast,Samosa,3,19,45
+2026-01-19,Monday,Hot,15.6,No,No,Lunch,Cold Coffee,11,45,440
+2026-01-19,Monday,Hot,15.6,No,No,Lunch,Chicken Biryani,15,45,1800
+2026-01-19,Monday,Hot,15.6,No,No,Lunch,Samosa,12,45,180
+2026-01-19,Monday,Hot,15.6,No,No,Snacks,Tea,12,41,120
+2026-01-19,Monday,Hot,15.6,No,No,Snacks,Masala Dosa,14,41,630
+2026-01-19,Monday,Hot,15.6,No,No,Snacks,Veg Thali,8,41,480
+2026-01-19,Monday,Hot,15.6,No,No,Dinner,Samosa,8,24,120
+2026-01-19,Monday,Hot,15.6,No,No,Dinner,Cold Coffee,7,24,280
+2026-01-19,Monday,Hot,15.6,No,No,Dinner,Veg Thali,8,24,480
+2026-01-20,Tuesday,Rainy,19.6,Yes,No,Breakfast,Sandwich,13,44,455
+2026-01-20,Tuesday,Rainy,19.6,Yes,No,Breakfast,Cold Coffee,10,44,400
+2026-01-20,Tuesday,Rainy,19.6,Yes,No,Breakfast,Veg Thali,14,44,840
+2026-01-20,Tuesday,Rainy,19.6,Yes,No,Lunch,Cold Coffee,23,74,920
+2026-01-20,Tuesday,Rainy,19.6,Yes,No,Lunch,Chicken Biryani,25,74,3000
+2026-01-20,Tuesday,Rainy,19.6,Yes,No,Lunch,Paneer Roll,16,74,880
+2026-01-20,Tuesday,Rainy,19.6,Yes,No,Snacks,Paneer Roll,11,54,605
+2026-01-20,Tuesday,Rainy,19.6,Yes,No,Snacks,Veg Thali,14,54,840
+2026-01-20,Tuesday,Rainy,19.6,Yes,No,Snacks,Sandwich,18,54,630
+2026-01-20,Tuesday,Rainy,19.6,Yes,No,Dinner,Tea,10,48,100
+2026-01-20,Tuesday,Rainy,19.6,Yes,No,Dinner,Cold Coffee,16,48,640
+2026-01-20,Tuesday,Rainy,19.6,Yes,No,Dinner,Chicken Biryani,15,48,1800
+2026-01-21,Wednesday,Sunny,31.0,No,No,Breakfast,Chicken Biryani,11,31,1320
+2026-01-21,Wednesday,Sunny,31.0,No,No,Breakfast,Tea,8,31,80
+2026-01-21,Wednesday,Sunny,31.0,No,No,Breakfast,Paneer Roll,8,31,440
+2026-01-21,Wednesday,Sunny,31.0,No,No,Lunch,Chicken Biryani,11,44,1320
+2026-01-21,Wednesday,Sunny,31.0,No,No,Lunch,Paneer Roll,16,44,880
+2026-01-21,Wednesday,Sunny,31.0,No,No,Lunch,Cold Coffee,16,44,640
+2026-01-21,Wednesday,Sunny,31.0,No,No,Snacks,Tea,11,30,110
+2026-01-21,Wednesday,Sunny,31.0,No,No,Snacks,Masala Dosa,8,30,360
+2026-01-21,Wednesday,Sunny,31.0,No,No,Snacks,Cold Coffee,6,30,240
+2026-01-21,Wednesday,Sunny,31.0,No,No,Dinner,Paneer Roll,7,21,385
+2026-01-21,Wednesday,Sunny,31.0,No,No,Dinner,Sandwich,6,21,210
+2026-01-21,Wednesday,Sunny,31.0,No,No,Dinner,Tea,7,21,70
+2026-01-22,Thursday,Hot,21.2,No,No,Breakfast,Paneer Roll,7,20,385
+2026-01-22,Thursday,Hot,21.2,No,No,Breakfast,Samosa,6,20,90
+2026-01-22,Thursday,Hot,21.2,No,No,Breakfast,Chicken Biryani,6,20,720
+2026-01-22,Thursday,Hot,21.2,No,No,Lunch,Veg Thali,10,44,600
+2026-01-22,Thursday,Hot,21.2,No,No,Lunch,Samosa,10,44,150
+2026-01-22,Thursday,Hot,21.2,No,No,Lunch,Masala Dosa,15,44,675
+2026-01-22,Thursday,Hot,21.2,No,No,Snacks,Paneer Roll,12,34,660
+2026-01-22,Thursday,Hot,21.2,No,No,Snacks,Sandwich,10,34,350
+2026-01-22,Thursday,Hot,21.2,No,No,Snacks,Cold Coffee,10,34,400
+2026-01-22,Thursday,Hot,21.2,No,No,Dinner,Chicken Biryani,6,22,720
+2026-01-22,Thursday,Hot,21.2,No,No,Dinner,Sandwich,6,22,210
+2026-01-22,Thursday,Hot,21.2,No,No,Dinner,Cold Coffee,5,22,200
+2026-01-23,Friday,Cold,29.9,No,No,Breakfast,Paneer Roll,6,20,330
+2026-01-23,Friday,Cold,29.9,No,No,Breakfast,Chicken Biryani,5,20,600
+2026-01-23,Friday,Cold,29.9,No,No,Breakfast,Samosa,6,20,90
+2026-01-23,Friday,Cold,29.9,No,No,Lunch,Cold Coffee,14,46,560
+2026-01-23,Friday,Cold,29.9,No,No,Lunch,Samosa,12,46,180
+2026-01-23,Friday,Cold,29.9,No,No,Lunch,Sandwich,13,46,455
+2026-01-23,Friday,Cold,29.9,No,No,Snacks,Paneer Roll,11,33,605
+2026-01-23,Friday,Cold,29.9,No,No,Snacks,Chicken Biryani,8,33,960
+2026-01-23,Friday,Cold,29.9,No,No,Snacks,Veg Thali,11,33,660
+2026-01-23,Friday,Cold,29.9,No,No,Dinner,Masala Dosa,10,31,450
+2026-01-23,Friday,Cold,29.9,No,No,Dinner,Chicken Biryani,7,31,840
+2026-01-23,Friday,Cold,29.9,No,No,Dinner,Tea,9,31,90
+2026-01-24,Saturday,Hot,28.7,No,No,Breakfast,Samosa,9,35,135
+2026-01-24,Saturday,Hot,28.7,No,No,Breakfast,Masala Dosa,11,35,495
+2026-01-24,Saturday,Hot,28.7,No,No,Breakfast,Chicken Biryani,7,35,840
+2026-01-24,Saturday,Hot,28.7,No,No,Lunch,Veg Thali,17,51,1020
+2026-01-24,Saturday,Hot,28.7,No,No,Lunch,Paneer Roll,11,51,605
+2026-01-24,Saturday,Hot,28.7,No,No,Lunch,Masala Dosa,19,51,855
+2026-01-24,Saturday,Hot,28.7,No,No,Snacks,Chicken Biryani,15,48,1800
+2026-01-24,Saturday,Hot,28.7,No,No,Snacks,Tea,14,48,140
+2026-01-24,Saturday,Hot,28.7,No,No,Snacks,Veg Thali,13,48,780
+2026-01-24,Saturday,Hot,28.7,No,No,Dinner,Veg Thali,7,33,420
+2026-01-24,Saturday,Hot,28.7,No,No,Dinner,Masala Dosa,7,33,315
+2026-01-24,Saturday,Hot,28.7,No,No,Dinner,Samosa,9,33,135
+2026-01-25,Sunday,Hot,29.5,Yes,No,Breakfast,Paneer Roll,12,55,660
+2026-01-25,Sunday,Hot,29.5,Yes,No,Breakfast,Veg Thali,19,55,1140
+2026-01-25,Sunday,Hot,29.5,Yes,No,Breakfast,Chicken Biryani,17,55,2040
+2026-01-25,Sunday,Hot,29.5,Yes,No,Lunch,Samosa,21,78,315
+2026-01-25,Sunday,Hot,29.5,Yes,No,Lunch,Tea,29,78,290
+2026-01-25,Sunday,Hot,29.5,Yes,No,Lunch,Paneer Roll,20,78,1100
+2026-01-25,Sunday,Hot,29.5,Yes,No,Snacks,Tea,21,65,210
+2026-01-25,Sunday,Hot,29.5,Yes,No,Snacks,Masala Dosa,20,65,900
+2026-01-25,Sunday,Hot,29.5,Yes,No,Snacks,Paneer Roll,22,65,1210
+2026-01-25,Sunday,Hot,29.5,Yes,No,Dinner,Samosa,14,58,210
+2026-01-25,Sunday,Hot,29.5,Yes,No,Dinner,Cold Coffee,12,58,480
+2026-01-25,Sunday,Hot,29.5,Yes,No,Dinner,Chicken Biryani,14,58,1680
+2026-01-26,Monday,Hot,16.7,Yes,No,Breakfast,Sandwich,10,43,350
+2026-01-26,Monday,Hot,16.7,Yes,No,Breakfast,Masala Dosa,14,43,630
+2026-01-26,Monday,Hot,16.7,Yes,No,Breakfast,Veg Thali,14,43,840
+2026-01-26,Monday,Hot,16.7,Yes,No,Lunch,Chicken Biryani,23,61,2760
+2026-01-26,Monday,Hot,16.7,Yes,No,Lunch,Cold Coffee,21,61,840
+2026-01-26,Monday,Hot,16.7,Yes,No,Lunch,Sandwich,19,61,665
+2026-01-26,Monday,Hot,16.7,Yes,No,Snacks,Samosa,16,54,240
+2026-01-26,Monday,Hot,16.7,Yes,No,Snacks,Sandwich,17,54,595
+2026-01-26,Monday,Hot,16.7,Yes,No,Snacks,Veg Thali,20,54,1200
+2026-01-26,Monday,Hot,16.7,Yes,No,Dinner,Chicken Biryani,12,36,1440
+2026-01-26,Monday,Hot,16.7,Yes,No,Dinner,Veg Thali,11,36,660
+2026-01-26,Monday,Hot,16.7,Yes,No,Dinner,Sandwich,13,36,455
+2026-01-27,Tuesday,Cloudy,25.1,No,No,Breakfast,Paneer Roll,7,25,385
+2026-01-27,Tuesday,Cloudy,25.1,No,No,Breakfast,Sandwich,5,25,175
+2026-01-27,Tuesday,Cloudy,25.1,No,No,Breakfast,Tea,5,25,50
+2026-01-27,Tuesday,Cloudy,25.1,No,No,Lunch,Cold Coffee,9,45,360
+2026-01-27,Tuesday,Cloudy,25.1,No,No,Lunch,Paneer Roll,11,45,605
+2026-01-27,Tuesday,Cloudy,25.1,No,No,Lunch,Masala Dosa,15,45,675
+2026-01-27,Tuesday,Cloudy,25.1,No,No,Snacks,Veg Thali,13,38,780
+2026-01-27,Tuesday,Cloudy,25.1,No,No,Snacks,Tea,11,38,110
+2026-01-27,Tuesday,Cloudy,25.1,No,No,Snacks,Cold Coffee,13,38,520
+2026-01-27,Tuesday,Cloudy,25.1,No,No,Dinner,Sandwich,6,21,210
+2026-01-27,Tuesday,Cloudy,25.1,No,No,Dinner,Paneer Roll,5,21,275
+2026-01-27,Tuesday,Cloudy,25.1,No,No,Dinner,Cold Coffee,8,21,320
+2026-01-28,Wednesday,Cold,29.6,No,Yes,Breakfast,Tea,5,16,50
+2026-01-28,Wednesday,Cold,29.6,No,Yes,Breakfast,Masala Dosa,5,16,225
+2026-01-28,Wednesday,Cold,29.6,No,Yes,Breakfast,Sandwich,4,16,140
+2026-01-28,Wednesday,Cold,29.6,No,Yes,Lunch,Sandwich,16,42,560
+2026-01-28,Wednesday,Cold,29.6,No,Yes,Lunch,Masala Dosa,15,42,675
+2026-01-28,Wednesday,Cold,29.6,No,Yes,Lunch,Cold Coffee,13,42,520
+2026-01-28,Wednesday,Cold,29.6,No,Yes,Snacks,Chicken Biryani,7,28,840
+2026-01-28,Wednesday,Cold,29.6,No,Yes,Snacks,Masala Dosa,11,28,495
+2026-01-28,Wednesday,Cold,29.6,No,Yes,Snacks,Tea,7,28,70
+2026-01-28,Wednesday,Cold,29.6,No,Yes,Dinner,Veg Thali,5,19,300
+2026-01-28,Wednesday,Cold,29.6,No,Yes,Dinner,Cold Coffee,4,19,160
+2026-01-28,Wednesday,Cold,29.6,No,Yes,Dinner,Paneer Roll,5,19,275
+2026-01-29,Thursday,Hot,32.4,No,No,Breakfast,Paneer Roll,8,22,440
+2026-01-29,Thursday,Hot,32.4,No,No,Breakfast,Sandwich,6,22,210
+2026-01-29,Thursday,Hot,32.4,No,No,Breakfast,Chicken Biryani,7,22,840
+2026-01-29,Thursday,Hot,32.4,No,No,Lunch,Veg Thali,14,40,840
+2026-01-29,Thursday,Hot,32.4,No,No,Lunch,Cold Coffee,13,40,520
+2026-01-29,Thursday,Hot,32.4,No,No,Lunch,Paneer Roll,10,40,550
+2026-01-29,Thursday,Hot,32.4,No,No,Snacks,Tea,11,29,110
+2026-01-29,Thursday,Hot,32.4,No,No,Snacks,Veg Thali,11,29,660
+2026-01-29,Thursday,Hot,32.4,No,No,Snacks,Chicken Biryani,8,29,960
+2026-01-29,Thursday,Hot,32.4,No,No,Dinner,Masala Dosa,5,20,225
+2026-01-29,Thursday,Hot,32.4,No,No,Dinner,Samosa,6,20,90
+2026-01-29,Thursday,Hot,32.4,No,No,Dinner,Cold Coffee,5,20,200
+2026-01-30,Friday,Cold,37.5,No,No,Breakfast,Samosa,8,25,120
+2026-01-30,Friday,Cold,37.5,No,No,Breakfast,Paneer Roll,5,25,275
+2026-01-30,Friday,Cold,37.5,No,No,Breakfast,Tea,5,25,50
+2026-01-30,Friday,Cold,37.5,No,No,Lunch,Tea,12,51,120
+2026-01-30,Friday,Cold,37.5,No,No,Lunch,Masala Dosa,10,51,450
+2026-01-30,Friday,Cold,37.5,No,No,Lunch,Paneer Roll,17,51,935
+2026-01-30,Friday,Cold,37.5,No,No,Snacks,Sandwich,10,38,350
+2026-01-30,Friday,Cold,37.5,No,No,Snacks,Tea,11,38,110
+2026-01-30,Friday,Cold,37.5,No,No,Snacks,Chicken Biryani,10,38,1200
+2026-01-30,Friday,Cold,37.5,No,No,Dinner,Tea,11,31,110
+2026-01-30,Friday,Cold,37.5,No,No,Dinner,Samosa,12,31,180
+2026-01-30,Friday,Cold,37.5,No,No,Dinner,Masala Dosa,7,31,315
+2026-01-31,Saturday,Cold,20.4,No,Yes,Breakfast,Sandwich,9,34,315
+2026-01-31,Saturday,Cold,20.4,No,Yes,Breakfast,Cold Coffee,11,34,440
+2026-01-31,Saturday,Cold,20.4,No,Yes,Breakfast,Samosa,12,34,180
+2026-01-31,Saturday,Cold,20.4,No,Yes,Lunch,Sandwich,13,45,455
+2026-01-31,Saturday,Cold,20.4,No,Yes,Lunch,Veg Thali,14,45,840
+2026-01-31,Saturday,Cold,20.4,No,Yes,Lunch,Chicken Biryani,16,45,1920
+2026-01-31,Saturday,Cold,20.4,No,Yes,Snacks,Chicken Biryani,8,40,960
+2026-01-31,Saturday,Cold,20.4,No,Yes,Snacks,Paneer Roll,9,40,495
+2026-01-31,Saturday,Cold,20.4,No,Yes,Snacks,Samosa,14,40,210
+2026-01-31,Saturday,Cold,20.4,No,Yes,Dinner,Chicken Biryani,6,25,720
+2026-01-31,Saturday,Cold,20.4,No,Yes,Dinner,Samosa,8,25,120
+2026-01-31,Saturday,Cold,20.4,No,Yes,Dinner,Masala Dosa,8,25,360
+2026-02-01,Sunday,Cloudy,34.6,No,No,Breakfast,Sandwich,7,36,245
+2026-02-01,Sunday,Cloudy,34.6,No,No,Breakfast,Tea,7,36,70
+2026-02-01,Sunday,Cloudy,34.6,No,No,Breakfast,Paneer Roll,11,36,605
+2026-02-01,Sunday,Cloudy,34.6,No,No,Lunch,Samosa,15,55,225
+2026-02-01,Sunday,Cloudy,34.6,No,No,Lunch,Cold Coffee,12,55,480
+2026-02-01,Sunday,Cloudy,34.6,No,No,Lunch,Veg Thali,17,55,1020
+2026-02-01,Sunday,Cloudy,34.6,No,No,Snacks,Sandwich,10,42,350
+2026-02-01,Sunday,Cloudy,34.6,No,No,Snacks,Chicken Biryani,8,42,960
+2026-02-01,Sunday,Cloudy,34.6,No,No,Snacks,Cold Coffee,11,42,440
+2026-02-01,Sunday,Cloudy,34.6,No,No,Dinner,Paneer Roll,8,31,440
+2026-02-01,Sunday,Cloudy,34.6,No,No,Dinner,Masala Dosa,7,31,315
+2026-02-01,Sunday,Cloudy,34.6,No,No,Dinner,Tea,8,31,80
+2026-02-02,Monday,Rainy,18.9,Yes,No,Breakfast,Samosa,11,51,165
+2026-02-02,Monday,Rainy,18.9,Yes,No,Breakfast,Sandwich,14,51,490
+2026-02-02,Monday,Rainy,18.9,Yes,No,Breakfast,Paneer Roll,12,51,660
+2026-02-02,Monday,Rainy,18.9,Yes,No,Lunch,Veg Thali,25,66,1500
+2026-02-02,Monday,Rainy,18.9,Yes,No,Lunch,Tea,22,66,220
+2026-02-02,Monday,Rainy,18.9,Yes,No,Lunch,Samosa,15,66,225
+2026-02-02,Monday,Rainy,18.9,Yes,No,Snacks,Cold Coffee,19,59,760
+2026-02-02,Monday,Rainy,18.9,Yes,No,Snacks,Paneer Roll,16,59,880
+2026-02-02,Monday,Rainy,18.9,Yes,No,Snacks,Masala Dosa,14,59,630
+2026-02-02,Monday,Rainy,18.9,Yes,No,Dinner,Samosa,10,46,150
+2026-02-02,Monday,Rainy,18.9,Yes,No,Dinner,Sandwich,12,46,420
+2026-02-02,Monday,Rainy,18.9,Yes,No,Dinner,Tea,12,46,120
+2026-02-03,Tuesday,Cloudy,37.8,No,No,Breakfast,Tea,9,29,90
+2026-02-03,Tuesday,Cloudy,37.8,No,No,Breakfast,Masala Dosa,9,29,405
+2026-02-03,Tuesday,Cloudy,37.8,No,No,Breakfast,Veg Thali,10,29,600
+2026-02-03,Tuesday,Cloudy,37.8,No,No,Lunch,Sandwich,13,39,455
+2026-02-03,Tuesday,Cloudy,37.8,No,No,Lunch,Tea,9,39,90
+2026-02-03,Tuesday,Cloudy,37.8,No,No,Lunch,Masala Dosa,14,39,630
+2026-02-03,Tuesday,Cloudy,37.8,No,No,Snacks,Samosa,10,32,150
+2026-02-03,Tuesday,Cloudy,37.8,No,No,Snacks,Paneer Roll,11,32,605
+2026-02-03,Tuesday,Cloudy,37.8,No,No,Snacks,Masala Dosa,10,32,450
+2026-02-03,Tuesday,Cloudy,37.8,No,No,Dinner,Chicken Biryani,4,21,480
+2026-02-03,Tuesday,Cloudy,37.8,No,No,Dinner,Cold Coffee,7,21,280
+2026-02-03,Tuesday,Cloudy,37.8,No,No,Dinner,Tea,4,21,40
+2026-02-04,Wednesday,Cloudy,31.8,No,No,Breakfast,Tea,6,30,60
+2026-02-04,Wednesday,Cloudy,31.8,No,No,Breakfast,Chicken Biryani,9,30,1080
+2026-02-04,Wednesday,Cloudy,31.8,No,No,Breakfast,Sandwich,11,30,385
+2026-02-04,Wednesday,Cloudy,31.8,No,No,Lunch,Paneer Roll,11,47,605
+2026-02-04,Wednesday,Cloudy,31.8,No,No,Lunch,Tea,17,47,170
+2026-02-04,Wednesday,Cloudy,31.8,No,No,Lunch,Chicken Biryani,13,47,1560
+2026-02-04,Wednesday,Cloudy,31.8,No,No,Snacks,Paneer Roll,14,41,770
+2026-02-04,Wednesday,Cloudy,31.8,No,No,Snacks,Cold Coffee,12,41,480
+2026-02-04,Wednesday,Cloudy,31.8,No,No,Snacks,Masala Dosa,8,41,360
+2026-02-04,Wednesday,Cloudy,31.8,No,No,Dinner,Samosa,10,31,150
+2026-02-04,Wednesday,Cloudy,31.8,No,No,Dinner,Tea,12,31,120
+2026-02-04,Wednesday,Cloudy,31.8,No,No,Dinner,Cold Coffee,12,31,480
+2026-02-05,Thursday,Hot,23.4,No,Yes,Breakfast,Chicken Biryani,6,19,720
+2026-02-05,Thursday,Hot,23.4,No,Yes,Breakfast,Samosa,6,19,90
+2026-02-05,Thursday,Hot,23.4,No,Yes,Breakfast,Masala Dosa,6,19,270
+2026-02-05,Thursday,Hot,23.4,No,Yes,Lunch,Cold Coffee,10,41,400
+2026-02-05,Thursday,Hot,23.4,No,Yes,Lunch,Veg Thali,8,41,480
+2026-02-05,Thursday,Hot,23.4,No,Yes,Lunch,Sandwich,15,41,525
+2026-02-05,Thursday,Hot,23.4,No,Yes,Snacks,Cold Coffee,9,29,360
+2026-02-05,Thursday,Hot,23.4,No,Yes,Snacks,Paneer Roll,9,29,495
+2026-02-05,Thursday,Hot,23.4,No,Yes,Snacks,Chicken Biryani,8,29,960
+2026-02-05,Thursday,Hot,23.4,No,Yes,Dinner,Paneer Roll,4,22,220
+2026-02-05,Thursday,Hot,23.4,No,Yes,Dinner,Cold Coffee,4,22,160
+2026-02-05,Thursday,Hot,23.4,No,Yes,Dinner,Samosa,4,22,60
+2026-02-06,Friday,Cold,17.7,No,No,Breakfast,Sandwich,9,25,315
+2026-02-06,Friday,Cold,17.7,No,No,Breakfast,Masala Dosa,8,25,360
+2026-02-06,Friday,Cold,17.7,No,No,Breakfast,Cold Coffee,7,25,280
+2026-02-06,Friday,Cold,17.7,No,No,Lunch,Masala Dosa,10,48,450
+2026-02-06,Friday,Cold,17.7,No,No,Lunch,Samosa,14,48,210
+2026-02-06,Friday,Cold,17.7,No,No,Lunch,Cold Coffee,13,48,520
+2026-02-06,Friday,Cold,17.7,No,No,Snacks,Veg Thali,8,33,480
+2026-02-06,Friday,Cold,17.7,No,No,Snacks,Cold Coffee,9,33,360
+2026-02-06,Friday,Cold,17.7,No,No,Snacks,Masala Dosa,8,33,360
+2026-02-06,Friday,Cold,17.7,No,No,Dinner,Chicken Biryani,7,24,840
+2026-02-06,Friday,Cold,17.7,No,No,Dinner,Cold Coffee,9,24,360
+2026-02-06,Friday,Cold,17.7,No,No,Dinner,Masala Dosa,6,24,270
+2026-02-07,Saturday,Cold,21.3,No,No,Breakfast,Chicken Biryani,12,38,1440
+2026-02-07,Saturday,Cold,21.3,No,No,Breakfast,Cold Coffee,12,38,480
+2026-02-07,Saturday,Cold,21.3,No,No,Breakfast,Sandwich,7,38,245
+2026-02-07,Saturday,Cold,21.3,No,No,Lunch,Cold Coffee,22,63,880
+2026-02-07,Saturday,Cold,21.3,No,No,Lunch,Chicken Biryani,15,63,1800
+2026-02-07,Saturday,Cold,21.3,No,No,Lunch,Tea,23,63,230
+2026-02-07,Saturday,Cold,21.3,No,No,Snacks,Samosa,17,49,255
+2026-02-07,Saturday,Cold,21.3,No,No,Snacks,Paneer Roll,12,49,660
+2026-02-07,Saturday,Cold,21.3,No,No,Snacks,Chicken Biryani,17,49,2040
+2026-02-07,Saturday,Cold,21.3,No,No,Dinner,Veg Thali,17,43,1020
+2026-02-07,Saturday,Cold,21.3,No,No,Dinner,Masala Dosa,13,43,585
+2026-02-07,Saturday,Cold,21.3,No,No,Dinner,Chicken Biryani,15,43,1800
+2026-02-08,Sunday,Sunny,30.2,Yes,Yes,Breakfast,Samosa,10,50,150
+2026-02-08,Sunday,Sunny,30.2,Yes,Yes,Breakfast,Paneer Roll,12,50,660
+2026-02-08,Sunday,Sunny,30.2,Yes,Yes,Breakfast,Masala Dosa,11,50,495
+2026-02-08,Sunday,Sunny,30.2,Yes,Yes,Lunch,Chicken Biryani,18,64,2160
+2026-02-08,Sunday,Sunny,30.2,Yes,Yes,Lunch,Cold Coffee,22,64,880
+2026-02-08,Sunday,Sunny,30.2,Yes,Yes,Lunch,Veg Thali,19,64,1140
+2026-02-08,Sunday,Sunny,30.2,Yes,Yes,Snacks,Sandwich,19,49,665
+2026-02-08,Sunday,Sunny,30.2,Yes,Yes,Snacks,Paneer Roll,10,49,550
+2026-02-08,Sunday,Sunny,30.2,Yes,Yes,Snacks,Chicken Biryani,17,49,2040
+2026-02-08,Sunday,Sunny,30.2,Yes,Yes,Dinner,Paneer Roll,18,48,990
+2026-02-08,Sunday,Sunny,30.2,Yes,Yes,Dinner,Samosa,10,48,150
+2026-02-08,Sunday,Sunny,30.2,Yes,Yes,Dinner,Cold Coffee,14,48,560
+2026-02-09,Monday,Cold,24.8,No,No,Breakfast,Chicken Biryani,8,26,960
+2026-02-09,Monday,Cold,24.8,No,No,Breakfast,Veg Thali,5,26,300
+2026-02-09,Monday,Cold,24.8,No,No,Breakfast,Masala Dosa,6,26,270
+2026-02-09,Monday,Cold,24.8,No,No,Lunch,Cold Coffee,14,49,560
+2026-02-09,Monday,Cold,24.8,No,No,Lunch,Samosa,14,49,210
+2026-02-09,Monday,Cold,24.8,No,No,Lunch,Paneer Roll,15,49,825
+2026-02-09,Monday,Cold,24.8,No,No,Snacks,Chicken Biryani,9,30,1080
+2026-02-09,Monday,Cold,24.8,No,No,Snacks,Tea,10,30,100
+2026-02-09,Monday,Cold,24.8,No,No,Snacks,Cold Coffee,10,30,400
+2026-02-09,Monday,Cold,24.8,No,No,Dinner,Tea,6,22,60
+2026-02-09,Monday,Cold,24.8,No,No,Dinner,Samosa,8,22,120
+2026-02-09,Monday,Cold,24.8,No,No,Dinner,Chicken Biryani,6,22,720
+2026-02-10,Tuesday,Sunny,22.2,No,No,Breakfast,Sandwich,7,21,245
+2026-02-10,Tuesday,Sunny,22.2,No,No,Breakfast,Veg Thali,4,21,240
+2026-02-10,Tuesday,Sunny,22.2,No,No,Breakfast,Tea,4,21,40
+2026-02-10,Tuesday,Sunny,22.2,No,No,Lunch,Cold Coffee,15,50,600
+2026-02-10,Tuesday,Sunny,22.2,No,No,Lunch,Tea,15,50,150
+2026-02-10,Tuesday,Sunny,22.2,No,No,Lunch,Chicken Biryani,15,50,1800
+2026-02-10,Tuesday,Sunny,22.2,No,No,Snacks,Chicken Biryani,12,34,1440
+2026-02-10,Tuesday,Sunny,22.2,No,No,Snacks,Samosa,13,34,195
+2026-02-10,Tuesday,Sunny,22.2,No,No,Snacks,Masala Dosa,9,34,405
+2026-02-10,Tuesday,Sunny,22.2,No,No,Dinner,Veg Thali,7,30,420
+2026-02-10,Tuesday,Sunny,22.2,No,No,Dinner,Masala Dosa,6,30,270
+2026-02-10,Tuesday,Sunny,22.2,No,No,Dinner,Paneer Roll,9,30,495
+2026-02-11,Wednesday,Rainy,30.1,No,No,Breakfast,Cold Coffee,11,35,440
+2026-02-11,Wednesday,Rainy,30.1,No,No,Breakfast,Veg Thali,12,35,720
+2026-02-11,Wednesday,Rainy,30.1,No,No,Breakfast,Masala Dosa,12,35,540
+2026-02-11,Wednesday,Rainy,30.1,No,No,Lunch,Veg Thali,21,59,1260
+2026-02-11,Wednesday,Rainy,30.1,No,No,Lunch,Paneer Roll,14,59,770
+2026-02-11,Wednesday,Rainy,30.1,No,No,Lunch,Cold Coffee,13,59,520
+2026-02-11,Wednesday,Rainy,30.1,No,No,Snacks,Paneer Roll,9,48,495
+2026-02-11,Wednesday,Rainy,30.1,No,No,Snacks,Masala Dosa,17,48,765
+2026-02-11,Wednesday,Rainy,30.1,No,No,Snacks,Tea,15,48,150
+2026-02-11,Wednesday,Rainy,30.1,No,No,Dinner,Chicken Biryani,10,33,1200
+2026-02-11,Wednesday,Rainy,30.1,No,No,Dinner,Sandwich,6,33,210
+2026-02-11,Wednesday,Rainy,30.1,No,No,Dinner,Cold Coffee,11,33,440
+2026-02-12,Thursday,Rainy,23.7,No,No,Breakfast,Cold Coffee,9,31,360
+2026-02-12,Thursday,Rainy,23.7,No,No,Breakfast,Tea,11,31,110
+2026-02-12,Thursday,Rainy,23.7,No,No,Breakfast,Paneer Roll,7,31,385
+2026-02-12,Thursday,Rainy,23.7,No,No,Lunch,Veg Thali,15,59,900
+2026-02-12,Thursday,Rainy,23.7,No,No,Lunch,Cold Coffee,19,59,760
+2026-02-12,Thursday,Rainy,23.7,No,No,Lunch,Sandwich,17,59,595
+2026-02-12,Thursday,Rainy,23.7,No,No,Snacks,Tea,15,44,150
+2026-02-12,Thursday,Rainy,23.7,No,No,Snacks,Masala Dosa,9,44,405
+2026-02-12,Thursday,Rainy,23.7,No,No,Snacks,Chicken Biryani,12,44,1440
+2026-02-12,Thursday,Rainy,23.7,No,No,Dinner,Sandwich,8,31,280
+2026-02-12,Thursday,Rainy,23.7,No,No,Dinner,Paneer Roll,7,31,385
+2026-02-12,Thursday,Rainy,23.7,No,No,Dinner,Cold Coffee,12,31,480
+2026-02-13,Friday,Sunny,15.2,No,No,Breakfast,Paneer Roll,4,21,220
+2026-02-13,Friday,Sunny,15.2,No,No,Breakfast,Masala Dosa,6,21,270
+2026-02-13,Friday,Sunny,15.2,No,No,Breakfast,Tea,6,21,60
+2026-02-13,Friday,Sunny,15.2,No,No,Lunch,Tea,10,41,100
+2026-02-13,Friday,Sunny,15.2,No,No,Lunch,Paneer Roll,12,41,660
+2026-02-13,Friday,Sunny,15.2,No,No,Lunch,Cold Coffee,13,41,520
+2026-02-13,Friday,Sunny,15.2,No,No,Snacks,Chicken Biryani,7,34,840
+2026-02-13,Friday,Sunny,15.2,No,No,Snacks,Samosa,6,34,90
+2026-02-13,Friday,Sunny,15.2,No,No,Snacks,Cold Coffee,13,34,520
+2026-02-13,Friday,Sunny,15.2,No,No,Dinner,Tea,8,24,80
+2026-02-13,Friday,Sunny,15.2,No,No,Dinner,Paneer Roll,6,24,330
+2026-02-13,Friday,Sunny,15.2,No,No,Dinner,Samosa,5,24,75
+2026-02-14,Saturday,Sunny,37.2,No,No,Breakfast,Cold Coffee,14,38,560
+2026-02-14,Saturday,Sunny,37.2,No,No,Breakfast,Veg Thali,9,38,540
+2026-02-14,Saturday,Sunny,37.2,No,No,Breakfast,Samosa,12,38,180
+2026-02-14,Saturday,Sunny,37.2,No,No,Lunch,Chicken Biryani,20,59,2400
+2026-02-14,Saturday,Sunny,37.2,No,No,Lunch,Samosa,14,59,210
+2026-02-14,Saturday,Sunny,37.2,No,No,Lunch,Masala Dosa,20,59,900
+2026-02-14,Saturday,Sunny,37.2,No,No,Snacks,Chicken Biryani,10,42,1200
+2026-02-14,Saturday,Sunny,37.2,No,No,Snacks,Paneer Roll,14,42,770
+2026-02-14,Saturday,Sunny,37.2,No,No,Snacks,Tea,11,42,110
+2026-02-14,Saturday,Sunny,37.2,No,No,Dinner,Masala Dosa,9,41,405
+2026-02-14,Saturday,Sunny,37.2,No,No,Dinner,Chicken Biryani,9,41,1080
+2026-02-14,Saturday,Sunny,37.2,No,No,Dinner,Veg Thali,13,41,780
